@@ -9,7 +9,7 @@ This script will allow you to create multiple dynamic content items in less than
 ### Install
 
 - Create a new Google Spreadsheet, or open an existing one.
-- In the upper menu bar, open 'Tools', and select 'Script Editor'.
+- In the upper menu bar, open "Tools", and select "Script Editor".
 - Once the Script Editor opens up, just copy the code from this repo and paste it in the file that is already created by default (Code.gs) and save.
 - Make sure to configure your Zendesk API key in the function `SETPROPERTIES`. Replace the `YOUR_API_KEY_HERE` text with your ZD API key in the `CREATEREQUEST` function.
 - Also, make sure to set your subdomain in the `subdomain` const in the `CREATEDCITEM` function.
