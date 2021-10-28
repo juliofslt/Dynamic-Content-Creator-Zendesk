@@ -52,6 +52,6 @@ Internally, this function takes the name of the current active sheet, and format
 
 - The current active sheet is called `ticket-form` and here is where you'll create all of your ticket forms.
 - In a cell, you have the name `Bugs and issues` of the placeholder you want to create.
-- Call the function in an empty cell -> `=FORMATTICKETFIELD( cell-with-placeholder-name )`
+- Call the function in an empty cell -> `=FORMATTICKETFIELD( cell_with_placeholder_name )`
 - Output -> `ticket-form_BUGS-AND-ISSUES`
 
